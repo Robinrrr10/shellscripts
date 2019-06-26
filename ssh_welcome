@@ -1,0 +1,31 @@
+#########################################################################
+
+
+#############
+#           #
+#           #
+#           #
+#############
+##
+# #
+#  #
+#   #
+#    #
+#     #
+#      #
+#       #
+#        #
+#         #
+#          #
+
+
+Welcome to My Cent os
+
+This file is in below
+ssh_welcome
+
+To enable banner while login go to
+vi /etc/ssh/sshd_config
+add/enable below line
+Banner /etc/ssh/ssh_welcome
+

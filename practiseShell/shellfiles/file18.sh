@@ -1,0 +1,10 @@
+#escape sequence for echo
+echo "1.hello all, how are you"
+echo "2.hello all\nhow are you"
+echo -e "3.hello all\nhow are you"
+echo -e "4.hello all,\rhow are you"
+echo -e "5.hello all,\thow are you"
+echo -e "6.hello all,\t\thow are you"
+echo -e "7.hello all,\b\bhow are you"
+echo -e "\033[1m8.hello all,\033[0mhow are you"
+echo -e "\033[7m9.hello all,\033[0mhow are you"
